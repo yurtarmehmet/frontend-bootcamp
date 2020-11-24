@@ -10,7 +10,7 @@ V8 –  Chrome ve Opera.
 
 SpiderMonkey – Firefox.
 
-IE için“Chakra” for IE, Microsoft Edge için “ChakraCore”...
+IE için “Chakra", Microsoft Edge için “ChakraCore”...
 
 ### JavaScript ile tarayıcıda neler yapılabilir?
 
@@ -44,7 +44,7 @@ JavaScript kodları HTML'de hemen her yere script tagları içersinde yerleştir
 >type attribute'u: <script type="text/javascript">
 Eski HTML standardı olan HTML4, script tagi ile birlikte type attribute'u verilmesini gerektiriyordu. Şu anda artık böyle bir ihtiyacımız yok.
   
-### External Script'ler
+### External Scriptler
 ```html
 <script src="/path/to/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
