@@ -135,11 +135,15 @@ Bunun sebebi, primiteve valueların aksine, referans valueların karşılaştır
 null boş ya da olmayan bir değerdir.
 null atanmış olmalıdır.
 
+```html
 let a = null;
 console.log(a);
 // null
+```
+
 
 Undefined. declared but not defined:
+```html
 let b;
 console.log(b);
 // undefined
@@ -147,6 +151,8 @@ console.log(b);
 var d = {};
 console.log(d.fake);
 // undefined
+
+```
 
 null atanmış bir valuedur. "hiçbirşey" anlamındandır.
 undefined tanımlamnmış ama değer atanmamış bir yapıdır
