@@ -8,7 +8,7 @@ Variablelar var keywordu ile oluşturuabilir.
 var hello;
 ```
 
-Burada hello adında vbir değişken oluşturduk. JavaScript'de değişkenler "undefined" değeri ile oluşur. 
+Burada hello adında bir değişken oluşturduk. JavaScript'de değişkenler "undefined" değeri ile oluşur. 
 
 
 ```html
@@ -24,7 +24,13 @@ let hello = "Hello, world";
 const PI = "3,14";
 ```
 
-// MORE ABOUT LET, CONST and variable naming
+var: JavaScript' de değişken tanımlanın artık eskimiş yolu. Atanan değişkenler değiştirilebilir, function scope
+
+let: Atanan değişkenler değiştirilebilir, block scope, değişkenler tanımlamalar hesaplanmadan initialize olmaz.
+
+const: atanan değişkenler değiştirilemez, block scope.
+
+varible naming: https://www.dummies.com/web-design-development/javascript/naming-javascript-variables/
 
 
 Types
