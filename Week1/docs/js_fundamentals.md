@@ -4,10 +4,13 @@ Value'lar JavaScript'deki en temelyapılardır. 1 bir valuedur, true bir valuedu
 
 Variablelar var keywordu ile oluşturuabilir.
 
+```html
 var hello;
+```
 
 Burada hello adında vbir değişken oluşturduk. JavaScript'de değişkenler "undefined" değeri ile oluşur. 
 
+```html
 console.log(declaration) // undefined
 
 var hello = "Hello, world";
@@ -15,6 +18,8 @@ hello = "Hello, world";
 
 let hello = "Hello, world";
 const PI = "3,14";
+```
+
 // MORE ABOUT LET, CONST and variable naming
 
 
