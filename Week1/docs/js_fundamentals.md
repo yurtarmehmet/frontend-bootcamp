@@ -1,4 +1,4 @@
-Values
+### Values
 
 Value'lar JavaScript'deki en temelyapılardır. 1 bir valuedur, true bir valuedur, "hello", function(){} .... birer valuedur. Valueları depoladığımız yapılara da variable(değişken) deriz.
 
@@ -35,7 +35,7 @@ varible naming: https://www.dummies.com/web-design-development/javascript/naming
 https://stackoverflow.com/a/23436618
 
 
-Types
+### Types
 
 JavaScript'de iki tip value vardır. Primitive ve referance value.
 
@@ -131,8 +131,8 @@ car === otherCar // false
 
 Bunun sebebi, primiteve valueların aksine, referans valueların karşılaştırmayı referansına göre yapmasıdır.
 
-undefined vs null
-null boş ya da olmayan bir değerdir is an empty or non-existent value.
+### undefined vs null
+null boş ya da olmayan bir değerdir.
 null atanmış olmalıdır.
 
 let a = null;
@@ -148,11 +148,11 @@ var d = {};
 console.log(d.fake);
 // undefined
 
-null is an assigned value. It means nothing.
-undefined typically means a variable has been declared but not defined yet.
-null and undefined are falsy values.
-null and undefined are both primitives. However an error shows that typeof null = object.
-null !== undefined but null == undefined.
+null atanmış bir valuedur. "hiçbirşey" anlamındandır.
+undefined tanımlamnmış ama değer atanmamış bir yapıdır
+null ve undefined falsy değerlerdir.
+null ve undefined, primitivedir.
+null !== undefined ancak null == undefined.
 
 Operators
 https://www.w3schools.com/js/js_operators.asp
