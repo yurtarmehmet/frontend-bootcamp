@@ -10,8 +10,12 @@ var hello;
 
 Burada hello adında vbir değişken oluşturduk. JavaScript'de değişkenler "undefined" değeri ile oluşur. 
 
+
 ```html
-console.log(declaration) // undefined
+console.log(hello) // undefined
+```
+
+```html
 
 var hello = "Hello, world";
 hello = "Hello, world";
