@@ -160,8 +160,9 @@ console.log(d.fake);
 - null ve undefined, primitivedir.
 - null !== undefined ancak null == undefined.
 
-Operators
+### Operators
 https://www.w3schools.com/js/js_operators.asp
+
 https://www.w3resource.com/javascript/operators/bitwise-operator.php
 
 
