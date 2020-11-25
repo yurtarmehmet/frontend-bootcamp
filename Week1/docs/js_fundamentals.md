@@ -1,4 +1,120 @@
-Values, Types, variables
+Values
+
+Value'lar JavaScript'deki en temelyapılardır. 1 bir valuedur, true bir valuedur, "hello", function(){} .... birer valuedur. Valueları depoladığımız yapılara da variable(değişken) deriz.
+
+Variablelar var keywordu ile oluşturuabilir.
+
+var hello;
+
+Burada hello adında vbir değişken oluşturduk. JavaScript'de değişkenler "undefined" değeri ile oluşur. 
+
+console.log(declaration) // undefined
+
+var hello = "Hello, world";
+hello = "Hello, world";
+
+let hello = "Hello, world";
+const PI = "3,14";
+// MORE ABOUT LET, CONST and variable naming
+
+
+Types
+
+JavaScript'de iki tip value vardır. Primitive ve referance value.
+
+```html
+Primitive Values
+  number
+  string
+  boolean
+  undefined
+  null
+  symbol
+
+Reference Values
+ "typeof" değeri "object" olan her şey.
+    objects
+    arrays
+    functions
+```
+    -----
+    
+```html
+const age = 20 // primitive
+const name = 'John' // primitive
+const loading = false // primitive
+const user = undefined // primitive
+const response = null // primitive
+const counter = Symbol('counter') // primitive
+
+const user = { name: 'John' } // reference
+const friends = ['Jane', 'Marcy'] // reference
+const exampleFunction = () => ({}) // reference  
+```
+     
+
+İlk bakışta primitive ve referance değerler aynı gibi gözükse de aralarında büyük farklar vardır. Temel farkları store ediliş biçimleridir. Primitive bir değerin store edilmiş değerine baktığınızda, değerle aynı olduğunu görürürüz. (30, "John", false);
+
+Referans değerlere baktığnızda ise store edilen şeyin "memory adress" olduğunu görürsünüz. Pratikte bunlar ne gibi farklar gösterir bakalım: 
+
+```html
+let name = 'Mehmet'
+let displayName = name
+
+name = 'Ahmet'
+
+console.log(name) // 'Ahmet'
+console.log(displayName) // 'Mehmet'
+```
+
+Benzer bir örneğe referans valuelar için bakalım: 
+
+```html
+let car = {
+  type: 'Sport',
+  name: 'Porcshe'
+}
+
+let otherCar = car
+
+otherCar.name = 'Mercedes'
+
+console.log(car.name) // Mercedes
+console.log(otherCar.name) // Mercedes
+```
+
+
+Burada car ve otherCar objeleri hafızadaki aynı yere referans etmekte. Bu yüzden logladığımızda aynı değerleri görürüz.
+
+
+Başka bir farklılığa daha bakalım: 
+
+```html
+const name = 'John'
+const friend = 'John'
+
+name === friend // true
+```
+
+Peki referans valuelarda?
+
+```html
+const car = {
+  type: 'Sport',
+  name: 'Porcshe'
+}
+
+const otherCar = {
+  type: 'Sport',
+  name: 'Porcshe'
+}
+
+car === otherCar // false
+```
+
+Bunun sebebi, primiteve valueların aksine, referans valueların karşılaştırmayı referansına göre yapmasıdır.
+
+Values, Types
 https://ui.dev/primitive-vs-reference-values-in-javascript/
 https://codeburst.io/everything-you-should-know-about-javascript-variables-bd573ed6c811
 https://codeburst.io/everything-you-should-know-about-javascript-variables-bd573ed6c811
