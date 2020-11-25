@@ -154,11 +154,11 @@ console.log(d.fake);
 
 ```
 
-null atanmış bir valuedur. "hiçbirşey" anlamındandır.
-undefined tanımlamnmış ama değer atanmamış bir yapıdır
-null ve undefined falsy değerlerdir.
-null ve undefined, primitivedir.
-null !== undefined ancak null == undefined.
+- null atanmış bir valuedur. "hiçbirşey" anlamındandır.
+- undefined tanımlamnmış ama değer atanmamış bir yapıdır
+- null ve undefined falsy değerlerdir.
+- null ve undefined, primitivedir.
+- null !== undefined ancak null == undefined.
 
 Operators
 https://www.w3schools.com/js/js_operators.asp
