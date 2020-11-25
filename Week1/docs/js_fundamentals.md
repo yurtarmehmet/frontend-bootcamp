@@ -32,6 +32,8 @@ const: atanan değişkenler değiştirilemez, block scope.
 
 varible naming: https://www.dummies.com/web-design-development/javascript/naming-javascript-variables/
 
+https://stackoverflow.com/a/23436618
+
 
 Types
 
