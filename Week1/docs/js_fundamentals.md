@@ -131,20 +131,28 @@ car === otherCar // false
 
 Bunun sebebi, primiteve valueların aksine, referans valueların karşılaştırmayı referansına göre yapmasıdır.
 
-Values, Types
-https://ui.dev/primitive-vs-reference-values-in-javascript/
-https://codeburst.io/everything-you-should-know-about-javascript-variables-bd573ed6c811
-https://codeburst.io/everything-you-should-know-about-javascript-variables-bd573ed6c811
-https://codeburst.io/javascript-null-vs-undefined-20f955215a2
-http://jsforcats.com/
-https://ui.dev/var-let-const/
-https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/
-https://flow.org/en/docs/types/primitives/
-https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
-https://gist.github.com/branneman/7fb06d8a74d7e6d4cbcf75c50fec599c
-https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18
-https://www.javascripttutorial.net/javascript-primitive-vs-reference-values/
-https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value
+undefined vs null
+null boş ya da olmayan bir değerdir is an empty or non-existent value.
+null atanmış olmalıdır.
+
+let a = null;
+console.log(a);
+// null
+
+Undefined. declared but not defined:
+let b;
+console.log(b);
+// undefined
+
+var d = {};
+console.log(d.fake);
+// undefined
+
+null is an assigned value. It means nothing.
+undefined typically means a variable has been declared but not defined yet.
+null and undefined are falsy values.
+null and undefined are both primitives. However an error shows that typeof null = object.
+null !== undefined but null == undefined.
 
 Operators
 https://www.w3schools.com/js/js_operators.asp
