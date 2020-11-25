@@ -198,10 +198,74 @@ run some other code
 
 ```
 
-If-Else, Switch-case, Loops, 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
-https://javascript.info/ifelse
+### Truthy and Falsy Values in JavaScript
+
+```html
+function logTruthiness (val) {
+    if (val) {
+        console.log("Truthy!");
+    } else {
+        console.log("Falsy.");
+    }
+}
+
+
+// Outputs: "Truthy!"
+logTruthiness(true);
+
+// Outputs: "Truthy!"
+logTruthiness({});
+
+// Outputs: "Truthy!"
+logTruthiness([]);
+
+// Outputs: "Truthy!"
+logTruthiness("some string");
+
+// Outputs: "Truthy!"
+logTruthiness(3.14);
+
+// Outputs: "Truthy!"
+logTruthiness(new Date());
+
+
+// Outputs: "Falsy."
+logTruthiness(false);
+
+// Outputs: "Falsy."
+logTruthiness(null);
+
+// Outputs: "Falsy."
+logTruthiness(undefined);
+
+// Outputs: "Falsy."
+logTruthiness(NaN);
+
+// Outputs: "Falsy."
+logTruthiness(0);
+
+// Outputs: "Falsy."
+logTruthiness("");
+```
+
+Ternary operator:
+
+```html
+function getFee(isMember) {
+  return (isMember ? '$2.00' : '$10.00');
+}
+```
+
+```html
+var a = 3 || 5;
+var b = 3 && 5;
+```
+
+
+Switch-case
 https://javascript.info/switch
+
+Loops 
 https://javascript.info/while-for
 
 Functions, Expressions&Statements
