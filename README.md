@@ -2,7 +2,9 @@
 
 ## Kitaplar
 [Eloquent JavaScript](https://eloquentjavascript.net/)
+
 [Speaking JS](http://speakingjs.com/es5/index.html)
+
 [You Don't know JS Series](https://github.com/getify/You-Dont-Know-JS)
 
 ## Blog & Dokuman
