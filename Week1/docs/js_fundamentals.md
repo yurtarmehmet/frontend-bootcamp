@@ -270,14 +270,19 @@ https://javascript.info/while-for
 
 Functions, Expressions&Statements
 https://dev.to/promhize/javascript-in-depth-all-you-need-to-know-about-expressions-statements-and-expression-statements-5k2
+
 https://www.sitepoint.com/function-expressions-vs-declarations/
+
 https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38
+
 https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052
+
 https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
 
 
 Regular Expressions
 https://eloquentjavascript.net/09_regexp.html
+
 https://javascript.info/regular-expressions
 
 https://javascript.info/
