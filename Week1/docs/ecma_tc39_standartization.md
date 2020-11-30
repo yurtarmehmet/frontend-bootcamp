@@ -14,7 +14,12 @@ Bir sonraki adım **Stage 3**'tür. Bu aşamada proposal büyük ölçüde tamam
 
 En son aşama ise **Stage 4**'tür. Bu aşamada proposal resmi tanımlamaya girmeye hazırdır. Bu aşamaya ulaşması için proposalın testleri yazılmış olmalı, implemantasyonları yapılmış olmalı, komite üyeleri pratik uygulamasını tecrübr etmiş olmalı ve EcmaScript editörü bunu onaylamış olmaılıdr. Bu adım artık proposalın proposal olmaktan çıktığı ve yeni tanımlamaya girmek için hazır olduğu adımdır.
 
+## Faydali Linkler
+
 https://javascript.info/manuals-specifications
+
 https://ui.dev/ecmascript/
+
 https://2ality.com/2015/11/tc39-process.html
+
 https://javascript.christmas/2019/1
