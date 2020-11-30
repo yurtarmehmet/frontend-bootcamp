@@ -47,7 +47,9 @@ http://jargon.js.org/
 **CSS**
 
 Flex-box mantığını oyunlaştırarak öğrenmek için 2 kaynak:
+
 https://flexboxfroggy.com/#tr
+
 https://mastery.games/flexboxzombies/
 
 **HTML&CSS**
