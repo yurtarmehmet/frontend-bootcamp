@@ -7,8 +7,11 @@
 
 ## Blog & Dokuman
 https://developer.mozilla.org/tr/docs/Web/JavaScript
+
 https://javascript.info/
+
 https://ui.dev/blog/
+
 http://adripofjavascript.com/archive.html
 
 
