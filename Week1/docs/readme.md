@@ -4,7 +4,7 @@
   - [JavaScript Fundamentals](https://github.com/yurtarmehmet/frontend-bootcamp/blob/main/Week1/docs/js_fundamentals.md)
   
 ## Homework
-  - Bu hafta odevimiz asagidaki linkteki quiz, gelecek haftaya kadar tamamlayalim. Quizi basladiktan sonra herhangi bir sure kisitlamasi bulunmuyor:
+  - Bu hafta odevimiz asagidaki linkteki quiz, gelecek haftaya kadar tamamlayalim. Quiz basladiktan sonra herhangi bir sure kisitlamasi bulunmuyor:
  
  https://mehmetyurtar.typeform.com/to/FuP7a3am
  
