@@ -1,3 +1,5 @@
+To visualize everything: https://ui.dev/javascript-visualizer/
+
 Global Execution Context
   - this: window
   - window: global object
