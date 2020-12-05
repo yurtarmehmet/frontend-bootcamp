@@ -73,8 +73,13 @@ var e = 2 && 0 && 7; // retursn 0
 //Number(123) // 123
 
 
-// Coercion for objects
+// Coercion
 // - 1. Input primitive ise, hicbirsey yapma ve onu don
+// - 2. input.toString(), donen sey primitive ise , onu on
+// - 3. input.valueOf(), donen sey primitive , onu don
+// - 4. throw TypeError
+
+// Coercion for Referance Values
 // - 2. input.toString(), donen sey primitive ise , onu on
 // - 3. input.valueOf(), donen sey primitive , onu don
 // - 4. throw TypeError
