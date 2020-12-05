@@ -32,3 +32,21 @@ first();  // John
 second(); // Mary
 console.log(name); // Mehmet
 ```
+
+
+// Closure Ornegi
+```javascript
+var sayi = 0;
+
+function ekleyici(x){
+	return function icSayi(y){
+    	return x + y;
+    }
+}
+
+var ekle5  = ekleyici(5);
+var ekle10 = ekleyici(10)(5);
+
+sayi = sayi + ekle5(2)
+
+```
