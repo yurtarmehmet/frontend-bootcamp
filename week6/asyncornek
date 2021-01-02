@@ -1,0 +1,12 @@
+async function getPokemon(pokemonName){
+  console.log("pokemon");
+  const pokemon = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
+  const pokemonJSON = await pokemon.json();
+  document.querySelector("#pokemonInfo").innerHTML = `NAME: ${pokemonJSON.name}`;
+}
+
+document.querySelector("button").addEventListener("click", () => {
+  const pokemonName = document.querySelector("input[name='pokemonName']").value
+  document.querySelector("#pokemonInfo").innerHTML = "YUKLENIYOR..";
+  getPokemon(pokemonName);
+});
