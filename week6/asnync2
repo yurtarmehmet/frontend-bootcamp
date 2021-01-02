@@ -1,0 +1,61 @@
+// Promise
+// bekleme - pending
+// success - fulfilled
+// siparis iptal - rejected
+
+
+// how to change the status
+const yemekPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+      //resolve("SIPARIS HAZIR"); // change to status to "fullfilled";
+      reject("SIPARISINIZ IPTAL"); // change to status to "rejected"
+  }, 2000)
+});
+
+console.log("Walk");
+console.log("make a call");
+
+// how to listen changes
+
+const yemekHazir = (message) => {
+  alert(message);
+}
+
+const yemekIptal = (message) => {
+ alert(message);  
+};
+
+yemekPromise.then(yemekHazir);
+yemekPromise.catch(yemekIptal);
+
+
+
+fetch("https://asdasdasd.github.com/users/yurtarmehmet").then(response => response.json()).then((user) => {
+  return user.blog;
+}).catch((err) => {
+  console.log(JSON.stringify(err));
+})
+
+// async/await
+
+async function toplama(x,y){
+  return x+y;
+}
+
+toplama(2,3).then((result) => {console.log(result)});
+
+async function getUser(){
+  try{
+    const user = await fetch("https://asdasdasdasd.github.com/users/yurtarmehmet");
+    const userJson = await user.json();
+  }catch(e){
+    console.log(JSON.stringify(e));
+  }
+}
+
+getUser();
+console.log("baska bi sey")
+
+
+
+getUser();
