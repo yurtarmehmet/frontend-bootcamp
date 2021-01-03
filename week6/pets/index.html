@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body style="padding-top: 30px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="petsHolder">
+            </div>
+            <div class="col-md-8">
+                <form id="petForm">
+                    <div class="mb-3">
+                        <label for="petName" class="form-label">isim</label>
+                        <input type="text" class="form-control" id="petName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="petImage" class="form-label">Image</label>
+                        <input type="text" class="form-control" id="petImage">
+                    </div>
+                    <div class="mb-3">
+                        <label for="petDesc" class="form-label">Aciklama</label>
+                        <input type="text" class="form-control" id="petDesc">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="petSubmitButton">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./mockapi.js" type="module"></script>
+</body>
+</html>
