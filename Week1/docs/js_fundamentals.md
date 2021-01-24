@@ -162,6 +162,8 @@ console.log(d.fake);
 
 https://stackoverflow.com/a/47645408
 
+https://2ality.com/2012/09/expressions-vs-statements.html#:~:text=JavaScript%20distinguishes%20expressions%20and%20statements,a%20statement%20performs%20an%20action.
+
 ### Operators
 https://www.w3schools.com/js/js_operators.asp
 
