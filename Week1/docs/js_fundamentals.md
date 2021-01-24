@@ -160,6 +160,8 @@ console.log(d.fake);
 - null ve undefined, primitivedir.
 - null !== undefined ancak null == undefined.
 
+https://stackoverflow.com/a/47645408
+
 ### Operators
 https://www.w3schools.com/js/js_operators.asp
 
